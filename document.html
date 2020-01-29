@@ -15,7 +15,7 @@
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom fonts for this template -->
-
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
@@ -27,7 +27,7 @@
 
 </head>
 
-  <body>
+  <body style="background:#f8f9fa;">
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white; font-weight: bold; font-family: 'Cairo', sans-serif;">
       <div style="margin-left:10%;">
@@ -65,68 +65,66 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">IB Committee</h2>
+          <h2 class="section-heading text-uppercase">Important Documents</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Prof. Rajat Monna</h4>
-            <p class="text-muted">Director - IIT Bhilai</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Dr. Sanjib Banerjee</h4>
-            <p class="text-muted">Dean of Research and Development</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
 
+
+      <div class="container" style="position:relative;top:-30px;">
+          <form class="" style="text-align:center;">
+      			<input style="width:80%; height:4vh;" type="text" id="myInput" class="browser-default search-container-form-text" onkeyup="myFunction()" placeholder="Search" title="Type in a name">
+          </form>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+
+      <div id="documents-list">
+      <div class="row document">
+        <div class="col-lg-2 text-center"></div>
+        <div class="col-lg-8 text-center">
+          <div style="width:100%;height:5vh;">
+            <button type="button" class="btn btn-info btn-sm" style="position:relative;top:.8vh; float:right;right:2%;">Download</button>
+            <p style="position: relative;top:1vh;">Startup - be like</p>
+          </div>
         </div>
+        <div class="col-lg-2 text-center"></div>
+      </div>
+      <div class="row document">
+        <div class="col-lg-2 text-center"></div>
+        <div class="col-lg-8 text-center">
+          <div style="width:100%;height:5vh;">
+            <button type="button" class="btn btn-info btn-sm" style="position:relative;top:.8vh; float:right;right:2%;">Download</button>
+            <p style="position: relative;top:1vh;">Zero to One</p>
+          </div>
+        </div>
+        <div class="col-lg-2 text-center"></div>
+      </div>
+      <div class="row document">
+        <div class="col-lg-2 text-center"></div>
+        <div class="col-lg-8 text-center">
+          <div style="width:100%;height:5vh;">
+            <button type="button" class="btn btn-info btn-sm" style="position:relative;top:.8vh; float:right;right:2%;">Download</button>
+            <p style="position: relative;top:1vh;">The learn startup</p>
+          </div>
+        </div>
+        <div class="col-lg-2 text-center"></div>
+      </div>
+      <div class="row document">
+        <div class="col-lg-2 text-center"></div>
+        <div class="col-lg-8 text-center">
+          <div style="width:100%;height:5vh;">
+            <button type="button" class="btn btn-info btn-sm" style="position:relative;top:.8vh; float:right;right:2%;">Download</button>
+            <p style="position: relative;top:1vh;">The art of the start</p>
+          </div>
+        </div>
+        <div class="col-lg-2 text-center"></div>
       </div>
     </div>
+
+
+
+    </div>
   </section>
+
 
 
 
@@ -150,5 +148,26 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+    function myFunction() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("documents-list");
+  li = ul.getElementsByClassName("document");;
+  for (i = 0; i < li.length; i++) {
+      b = li[i].getElementsByTagName("div")[1];
+      a = b.getElementsByTagName("div")[0];
+      
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }
+  }
+}
+    </script>
   </body>
 </html>
